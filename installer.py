@@ -1,7 +1,7 @@
 import os, time
 os.system('clear')
-########################## новые
-import random
+
+
 
 
 print ('\n')
