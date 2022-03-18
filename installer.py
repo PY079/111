@@ -1,5 +1,5 @@
 import os, time
-os.system('cls')
+os.system('clear')
 ########################## новые
 import random
 from progress.bar import ShadyBar
@@ -38,7 +38,7 @@ while True:
     print ("    [0] выход")
     print ("\n\n")
     inp = input ('  Выбери пункт>>>  ')
-    os.system('cls')
+    os.system('clear')
     
     if inp == '1':    
         os.system('cd $HOME')
@@ -47,7 +47,7 @@ while True:
         os.system('cd termux-ngrok')
         os.system('chmod +x termux-ngrok.sh')
         os.system('./termux-ngrok.sh')
-        os.system('cls')
+        os.system('clear')
     
 
     if inp == '6':    
@@ -55,16 +55,16 @@ while True:
         time.sleep(3)
         os.system('cd installer')
         os.system('python3 installer.py')
-        os.system('cls')
+        os.system('clear')
         
     if inp == '0':
-        os.system('cls')
+        os.system('clear')
         break
         
     if inp < '0':
-        os.system('cls')
+        os.system('clear')
         pass
     if inp > '6':
-        os.system('cls')
+        os.system('clear')
         pass
         
