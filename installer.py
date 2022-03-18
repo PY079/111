@@ -2,19 +2,9 @@ import os, time
 os.system('clear')
 ########################## новые
 import random
-from progress.bar import ShadyBar
+
 
 print ('\n')
-av3 = random.randint(1,50)
-bar = ShadyBar('   [загрузка...]', max=av3)
-for i in range(av3):
-    av9 = random.uniform(0.01, 0.3)
-    time.sleep(av9)
-    bar.next()
-print('\n\n')
-time.sleep(2)
-os.system('cls')
-time.sleep(2.5)
 
 while True:
     print('\n\n')
